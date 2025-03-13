@@ -21,7 +21,8 @@ namespace Wpm.Management.Api.DataAccess
                 [
                     new Pet(){ Id=1, Name="Firulais", Age=11, BreedId=1 },
                     new Pet(){ Id=2, Name="Ron", Age=3, BreedId=2 },
-                    new Pet(){ Id=3, Name="Wisky", Age=6, BreedId=1 }
+                    new Pet(){ Id=3, Name="Wisky", Age=6, BreedId=1 },
+                    new Pet(){ Id=4, Name="Chandom", Age=2, BreedId=2 }
                 ]    
             );
         }
