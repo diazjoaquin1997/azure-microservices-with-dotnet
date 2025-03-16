@@ -15,6 +15,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ManagementService>();
 builder.Services.AddScoped<ClinicApplicationService>();
+builder.Services.AddMemoryCache();
 
 builder.Services.AddDbContext<ClinicDbContext>(options =>
     options.UseInMemoryDatabase("WpmClinic")

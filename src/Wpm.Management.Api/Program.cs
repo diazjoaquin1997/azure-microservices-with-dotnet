@@ -10,7 +10,6 @@ builder.Services.AddControllers();
 //builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddMemoryCache();
 builder.Services.AddDbContext<ManagementDbContext>(options =>
 {
     options.UseInMemoryDatabase("WpmManagement");
